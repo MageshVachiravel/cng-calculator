@@ -3,17 +3,16 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage" : "https://mageshvachiravel.github.io/cng-calculator/",
+  "homepage": "https://mageshvachiravel.github.io/cng-calculator/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "pre-deploy" : "vite build",
-    "deploy" : "gh-pages -d dist"
+    "predeploy": "vite build",
+    "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.16",
-    "gh-pages": "^6.0.0",
     "postcss": "^8.4.31",
     "tailwindcss": "^3.3.3",
     "vite": "^4.4.5"

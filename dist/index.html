@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CNG Calculator || Magesh </title>
+
+    <!-- stylecss -->
+    
+    <link rel="stylesheet" href="/cng-calculator/assets/index-1811d4c9.css">
+  </head>
+  <body class=" bg-gradient-to-r from-purple-500 to-red-500 min-h-screen font-poppins"> 
+  <div class="bg-zinc-800 sm:bg-white p-10 max-w-lg mx-auto mt-10 rounded shadow-x">
+    <div class="">
+      <h1 class="font-bold text-red-500">CNG Cost Calculator</h1>
+      <p class="text-gray-600">Simple tool to calculate the cost</p>
+    </div>
+
+    <form class="mt-5 space-y-5">
+
+      <div>
+
+        <label for="trip-distance" class="form-label">
+          Trip Distance <span class="text-red-500">*</span>
+
+          <input type="number" id="trip-distance" placeholder="Trip Distance" class="bg-gray-100 px-4 py-2 outline-none w-full rounded mt-2 font-medium" required>
+
+        </label>
+      </div>
+     
+
+      <div>
+        <label for="fuel-efficiency" class="form-label">Fuel-Efficiency <span class="text-red-500">*</span>
+
+          <input type="number" id="fuel-efficiency" placeholder="Fuel Efficiency" class="bg-gray-100 px-4 py-2 outline-none w-full rounded mt-2  font-medium" required>
+
+        </label>
+       
+      </div>
+
+
+      <div>
+        <label for="fuel-cost" class="form-label">Fuel Cost <span class="text-red-500">*</span>
+
+          <input type="number" id="fuel-cost" placeholder="Fuel Cost" class="bg-gray-100 px-4 py-2 outline-none w-full rounded mt-2  font-medium" required>
+        </label>
+
+      </div>
+
+      <div>
+        <button class="bg-red-500 w-full border-none text-white px-2 py-2 rounded">Calculate</button>
+      </div>
+    
+    </form>
+
+  </div>
+    
+  </body>
+</html>
