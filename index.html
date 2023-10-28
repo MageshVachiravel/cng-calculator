@@ -8,13 +8,15 @@
 
     <!-- stylecss -->
     
-    <link rel="stylesheet" href="/cng-calculator/assets/index-1811d4c9.css">
+    
+    <script type="module" crossorigin src="/cng-calculator/assets/index-452a7812.js"></script>
+    <link rel="stylesheet" href="/cng-calculator/assets/index-972e9465.css">
   </head>
-  <body class=" bg-gradient-to-r from-purple-500 to-red-500 min-h-screen font-poppins"> 
+  <body class=" bg-gradient-to-r from-purple-500 to-red-500 font-poppins"> 
   <div class="bg-zinc-800 sm:bg-white p-10 max-w-lg mx-auto mt-10 rounded shadow-x">
     <div class="">
       <h1 class="font-bold text-red-500">CNG Cost Calculator</h1>
-      <p class="text-gray-600">Simple tool to calculate the cost</p>
+      <p class="text-gray-600" id="name">Simple tool to calculate the cost</p>
     </div>
 
     <form class="mt-5 space-y-5">
@@ -49,12 +51,17 @@
       </div>
 
       <div>
-        <button class="bg-red-500 w-full border-none text-white px-2 py-2 rounded">Calculate</button>
+        <button class="bg-red-500 w-full border-none text-white px-2 py-2 rounded" id="calcuBtn">Calculate</button>
       </div>
     
     </form>
 
   </div>
-    
+
+  
+  <!-- Javascript -->
+
+  
+
   </body>
 </html>
